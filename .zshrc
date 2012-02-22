@@ -36,7 +36,7 @@ fi
 source $DOT_HOME/.aliases
 
 # load custom theme
-source $DOT_HOME/themes/domnikl.zsh-theme
+source $DOT_HOME/themes/macrae.zsh-theme
 
 # set environment variables ...
 source $DOT_HOME/.environment_variables
@@ -52,6 +52,6 @@ if [ -f "$HOME/.local.zshrc" ]; then
 fi
 
 export EDITOR=`which vim`
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-source $HOME/.rvm/scripts/rvm
+# 
+# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# source $HOME/.rvm/scripts/rvm
