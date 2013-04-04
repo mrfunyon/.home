@@ -44,8 +44,6 @@ source $DOT_HOME/.environment_variables
 # fortune cookie ;-)
 source $DOT_HOME/.fortune
 
-source $DOT_HOME/.macports
-
 # add a local .local.zshrc file, if it exists
 if [ -f "$HOME/.local.zshrc" ]; then
 	source $HOME/.local.zshrc
@@ -55,3 +53,20 @@ export EDITOR=`which vim`
 # 
 # PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # source $HOME/.rvm/scripts/rvm
+
+
+
+###########
+# Aliases #
+###########
+
+source "$HOME/.zsh/aliases"
+
+##########
+# Config #
+##########
+
+source "$HOME/.zsh/config"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
